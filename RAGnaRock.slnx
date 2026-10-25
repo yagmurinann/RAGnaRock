@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RAGnaRock.Api/RAGnaRock.Api.csproj" />
+    <Project Path="src/RAGnaRock.Application/RAGnaRock.Application.csproj" />
+    <Project Path="src/RAGnaRock.Domain/RAGnaRock.Domain.csproj" />
+    <Project Path="src/RAGnaRock.Infrastructure/RAGnaRock.Infrastructure.csproj" />
+    <Project Path="src/RAGnaRock.Web/RAGnaRock.Web.csproj" />
+  </Folder>
+</Solution>
