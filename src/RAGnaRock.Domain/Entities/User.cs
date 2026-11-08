@@ -1,12 +1,10 @@
+using Microsoft.AspNetCore.Identity;
+
 namespace RAGnaRock.Domain.Entities;
 
-public class User
+public class User : IdentityUser<int>
 {
-    public int Id { get; set; }
     public string FullName { get; set; } = string.Empty;
-    public string Email { get; set; } = string.Empty;
-    public string PasswordHash { get; set; } = string.Empty;
-    public string Role { get; set; } = string.Empty;
 
     public List<Order> Orders { get; set; } = new();
     public Cart? Cart { get; set; }
